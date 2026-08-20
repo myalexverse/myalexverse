@@ -45,8 +45,13 @@
 
 ---
 
-### 📊 GitHub Analytics
+### ⚡ Engineering Focus & Methodology
+- 📱 **Mobile & Web Architecture:** Clean Architecture, MVVM pattern, and Offline-First synchronization.
+- 🛍️ **E-commerce & Storefronts:** Theme 2.0 modular sections, conversion optimization, and API pipelines.
+- 🔄 **Integrations & Reliability:** Webhook consumers, idempotent database mutations, and automated testing.
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=myalexverse&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=myalexverse&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://img.shields.io/badge/Focus-Full--Stack_%26_Shopify-1A56DB?style=for-the-badge&logo=shopify&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/Architecture-Clean_%26_Scalable-0F294A?style=for-the-badge&logo=appveyor&logoColor=white" alt="Architecture" />
+  <img src="https://img.shields.io/badge/Status-Available_for_Remote_Hire-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
 </p>
