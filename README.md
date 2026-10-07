@@ -41,7 +41,7 @@
 | **Aylesva** | Full-Stack Platform | International services digital platform operating in Mexico & USA. | [aylesva.mx](https://aylesva.mx) |
 | **Raíz de Plata** | E-commerce | Custom Shopify storefront with Liquid 2.0 and mobile checkout. | [Storefront](https://raiz-de-plata-2.myshopify.com) |
 | **Mundo Country** | Store & Portal | E-commerce & community portal with custom theme architecture. | [mundocountry.mx](https://www.mundocountry.mx) |
-| **San Miguel Daily** | Digital Media | High-traffic news outlet optimized for Core Web Vitals & SEO. | [sanmigueldaily.com](http://sanmigueldaily.com) |
+
 
 ---
 
