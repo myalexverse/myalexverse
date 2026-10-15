@@ -11,8 +11,21 @@
 ### 🎯 Engineering Focus & Core Ownership
 - 🛡️ **AI Agent Evaluation & Runtime Governance:** Designing and operating production safeguards for tool-using, multi-step LLM agents that execute real-world actions (`send_message`, `update_record`, `prepare_decision`). Enforcing **accountable ownership, human/campaign approval workflows, data provenance restrictions, deterministic pre-execution checks, and automatic quality-based suspension (kill switches)** in code.
 - 📊 **Applied Statistics & Go-Live Release Gates:** Implementing statistically rigorous evaluation frameworks in **Python** and **TypeScript**—including **Cochran finite-population review sample sizing**, **Wilson Score 95%/99% error-rate confidence bounds**, and **two-proportion Z-test regression detection** across model or instruction changes.
-- 🔌 **Model Observability & Provider Independence:** Architecting vendor-agnostic model abstractions (`OpenAI`, `Anthropic`, `Gemini`, and on-device models) with immutable audit ledgers recording model ID, instruction version hash, data provenance, and deterministic quality checks on every invocation.
+- ⚡ **Frontier AI-Native Engineering & LLM Workflows:** Advanced mastery across modern agentic engineering platforms—including **Google Antigravity**, **OpenAI Codex**, and **Claude Code**—combined with hands-on LLM engineering using the latest model generations such as **OpenAI Astra 6** (and GPT/o-series), **Google Gemini 4 Argo**, and **Anthropic Claude**. Grounded in senior software engineering foundations, I leverage these technologies to dramatically accelerate delivery velocity **while strictly enforcing architectural best practices, deterministic verification, and end-to-end project security**.
+- 🔌 **Model Observability & Provider Independence:** Architecting vendor-agnostic model abstractions (`OpenAI Astra 6`, `Google Gemini 4 Argo`, `Anthropic Claude`, and on-device models) with immutable audit ledgers recording model ID, instruction version hash, data provenance, and deterministic quality checks on every invocation.
 - 📱 **End-to-End Native & Cloud Systems:** Translating written governance rules, ontologies, and acceptance matrices (`MATRIZ-PARIDAD.md`, `ADR-0001`) into executable validation suites across **TypeScript/Node.js**, **Python**, **PostgreSQL RLS**, **iOS (Swift 6 / SwiftUI)**, and **Android (Kotlin 2.2 / Jetpack Compose)**.
+
+---
+
+### ⚡ AI-Native Engineering Velocity + Strict Security & Best Practices
+
+> *"Modern agentic AI tools multiply speed—but senior engineering discipline ensures that speed never compromises reliability, maintainability, or security."*
+
+| Dimension | Platforms, Frontier Models & Engineering Discipline |
+| :--- | :--- |
+| 🤖 **Agentic IDEs & Autonomous Coding Systems** | Expert command of **Google Antigravity**, **OpenAI Codex**, and **Claude Code** for multi-agent orchestration, multi-repo refactoring, automated test synthesis, and spec-driven verification. |
+| 🧠 **Frontier LLM Development Stack** | Building, evaluating, and orchestrating multi-step workflows with **OpenAI Astra 6** (plus GPT / o-series), **Google Gemini 4 Argo** (plus Gemini Pro / Flash), and **Anthropic Claude**, abstracted behind provider-independent interfaces. |
+| 🔒 **Integrity, Best Practices & Security Guardrails** | Every AI-accelerated feature is gated by **Architecture Decision Records (`ADR-0001`)**, **deterministic test suites (14,449+ checks in Myaow)**, **statistical regression gates**, **zero-secret repositories**, **HPKE RFC 9180 E2EE**, and **PostgreSQL Row-Level Security (RLS)**. |
 
 ---
 
@@ -20,7 +33,7 @@
 
 | System / Repository | Domain & Stack | Governance, Evaluation & Architecture Highlights | Links |
 | :--- | :--- | :--- | :--- |
-| 🛡️ **`agent-governance-runtime`** | **TypeScript · Python · Applied Statistics** | **Governed Multi-Step Agent Runtime & Evaluation Gate:** Cochran review sample sizing, Wilson 95% error upper-bound gating, model regression Z-test detector, HITL & campaign-level approvals, data classification guards, immutable model call provenance ledger, and automatic kill switches. Includes [`ADR-0001`](https://github.com/myalexverse/agent-governance-runtime/blob/main/docs/ADR-0001-governed-agent-runtime.md). | [**Repo**](https://github.com/myalexverse/agent-governance-runtime) · [**Live Lab**](https://myalexverse.github.io/#ai-governance) |
+| 🛡️ **`agent-governance-runtime`** | **TypeScript · Python · Applied Statistics** | **Governed Multi-Step Agent Runtime & Evaluation Gate:** Cochran review sample sizing, Wilson 95% error upper-bound gating, model regression Z-test detector, HITL & campaign-level approvals, data classification guards, immutable model call provenance ledger (`OpenAI Astra 6`, `Gemini 4 Argo`, `Claude`), and automatic kill switches. Includes [`ADR-0001`](https://github.com/myalexverse/agent-governance-runtime/blob/main/docs/ADR-0001-governed-agent-runtime.md). | [**Repo**](https://github.com/myalexverse/agent-governance-runtime) · [**Live Lab**](https://myalexverse.github.io/#ai-governance) |
 | 🐾 **`Myaow-iOS`** | **Swift 6 · CryptoKit · WebRTC · On-Device AI** | **E2EE Communication & Collaborative Workspace Ecosystem:** 14,449+ deterministic pre-release validation checks (`validate-critical.sh`), governed proposal-to-task approval workflows (`ProjectWorkspace`), fail-closed on-device AI content moderation, HPKE RFC 9180 Auth v2, Hybrid PTT Radio & 23 procedural H.264 wallpapers. | [**Repo**](https://github.com/myalexverse/Myaow-iOS) · [**Case Study**](https://myalexverse.github.io/#myaow-spotlight) |
 | 🤖 **`Myaow-Android`** | **Kotlin 2.2 · Jetpack Compose · Keystore** | **Hardware-Backed Native Client & Executable Parity Matrix:** Converts 110+ written acceptance scenarios ([`MATRIZ-PARIDAD.md`](https://github.com/myalexverse/Myaow-Android/blob/main/MATRIZ-PARIDAD.md)) and [`ADR-0001`](https://github.com/myalexverse/Myaow-Android/blob/main/decisions/0001-account-and-devices.md) into automated cross-platform Swift ⇄ Kotlin cryptographic fixtures and explicit digest-confirmed device linking (`DeviceLinkPrototype`). | [**Repo**](https://github.com/myalexverse/Myaow-Android) |
 | 🏙️ **`aylesvoy-smart-directory`** | **Serverless · Vision AI · Firebase · iOS** | **Fail-Closed AI Content Moderation & Cost Governance:** Automated image safety evaluation pipeline (Vision SafeSearch) with strict fail-closed rejection when confidence thresholds or upstream availability fail, plus 90%+ cloud cost optimization. | [**Repo**](https://github.com/myalexverse/aylesvoy-smart-directory) |
@@ -42,11 +55,19 @@
 │ • Deterministic Pre-Execution Safeguards │ • Two-Proportion Z-Test Regression Gates │
 │ • Automatic Quality Suspension / KillSw  │ • Model & Instruction Version Comparison │
 │ • Model Observability & Data Provenance  │ • Executable Specs & ADRs Before Coding  │
-│ • Provider-Independent LLM Abstraction   │ • Fail-Closed Safety & PII/Scope Guards  │
+│ • Provider-Independent LLM Abstraction   │ • Antigravity · OpenAI Codex · ClaudeCode│
+│ • OpenAI Astra 6 & Google Gemini 4 Argo  │ • Fail-Closed Safety & PII/Scope Guards  │
 └──────────────────────────────────────────┴──────────────────────────────────────────┘
 ```
 
 ### 🛠️ Technical Stack
+
+**Frontier AI Tooling, LLMs & Agent Orchestration:**  
+![Antigravity](https://img.shields.io/badge/Google_Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-10A37F?style=flat-square&logo=openai&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI Astra 6](https://img.shields.io/badge/OpenAI_Astra_6-000000?style=flat-square&logo=openai&logoColor=white)
+![Gemini 4 Argo](https://img.shields.io/badge/Gemini_4_Argo-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 **AI Systems, Backend & Languages:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
